@@ -1,0 +1,155 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Header Part*/
+  .header {
+    height: 93vh;
+    width: 100%;
+    opacity: 1;
+    z-index: 2;
+    background-image: url("../assets/office2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(17, 0, 255);
+  }
+  .header-title{
+    margin-top: 5%;
+  }
+  .header-title > div{
+    font-size: 65px;
+  }
+
+
+.desk-searching{
+    margin-top: 50px;
+    border-radius: 2px;
+}
+.header-lines1{
+    margin-top: 30px;
+}
+.header-lines1 > div{
+    font-size: 22px;
+}
+.header-lines2{
+    margin-top: 0px;
+}
+.header-lines2 > div{
+    font-size: 22px;
+}
+.input-loc{
+    height: 50px;
+}
+
+
+
+  /*Achor Tag style*/
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  }
+  /*Text*/
+  .txt-color {
+    color: white;
+  }
+
+  .logo::first-letter {
+    text-decoration: underline;
+  }
+  .footer-logo::first-letter{
+    text-decoration: underline;
+    color: white;
+  }
+.btn-ln{
+  background-color: #355bd4 ; border-radius: 2px
+}
+  /*City cards*/
+  .city-card {
+    height: 450px;
+    position: relative;
+  }
+  .city-card:hover{
+    opacity: .8;
+    transition: transform .2s;
+    height: 452px;
+    padding: 1px;
+    font-size: larger;
+  }
+
+  .imgCity {
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(50%);
+  }
+  .centered {
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .avatar{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+  }
+  .avatar > svg{
+    margin-top: 30%;
+  }
+
+  .spaces-badge{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    border-radius: 5px;
+    background-color: #355bd4;
+    padding: 2px 5px;
+  }
+  .workspace-icons{
+    height: 70px;
+    width: 70px;
+    background-color: #b5ccf1;
+  }
+
+  .second-text{
+    color:#506690;
+    margin-top: 20px;
+  }
+  .list-group-item{
+    border: 1px solid white;;
+  }
+
+
+  .footer-heading:hover{
+    font-size: 30px;
+    font-weight: 20px;
+  }
+ 
+ 
+  @media (max-width:1000px){
+    .header-title >  div{
+        line-height: 1;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    
+  .header-lines1 > div{
+      font-size: 20px;
+      line-height: 1;
+  }
+  
+  .header-lines2 > div{
+      font-size: 20px;
+      line-height: 1;
+  }
+  .desk-searching{
+    margin: 10px 6px;
+    padding: 5px 5px; 
+  }
+
+  }
+  
