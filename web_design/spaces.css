@@ -4,10 +4,14 @@
     margin: 0;
     padding: 0;
   }
+  input::placeholder{
+    font-size: 17px;
+    
+  }
   
   /*Header Part*/
   .header {
-    height: 93vh;
+    height: 90vh;
     width: 100%;
     opacity: 1;
     z-index: 2;
@@ -20,25 +24,25 @@
     margin-top: 5%;
   }
   .header-title > div{
-    font-size: 65px;
+    font-size: 440%;
   }
 
 
 .desk-searching{
-    margin-top: 50px;
+    margin-top: 4.5%;
     border-radius: 2px;
 }
 .header-lines1{
     margin-top: 30px;
 }
 .header-lines1 > div{
-    font-size: 22px;
+    font-size: 167%;
 }
 .header-lines2{
     margin-top: 0px;
 }
 .header-lines2 > div{
-    font-size: 22px;
+    font-size: 167%;
 }
 .input-loc{
     height: 50px;
@@ -75,7 +79,6 @@
   .city-card:hover{
     opacity: .8;
     transition: transform .2s;
-    height: 452px;
     padding: 1px;
     font-size: larger;
   }
@@ -103,12 +106,18 @@
 
   .spaces-badge{
     position: absolute;
-    bottom: 2%;
-    right: 1%;
+    bottom: 7%;
+    right: 5%;
     border-radius: 5px;
     background-color: #355bd4;
     padding: 2px 5px;
   }
+  .space-price{
+    font-size: 100px;
+    padding-left: 7%;
+  }
+
+
   .workspace-icons{
     height: 70px;
     width: 70px;
@@ -125,8 +134,16 @@
 
 
   .footer-heading:hover{
-    font-size: 30px;
-    font-weight: 20px;
+    opacity: .8;
+  }
+
+
+  .card-size{
+    height:400px;
+    
+  }
+  tr{
+    height: 50px;
   }
  
  
@@ -150,6 +167,33 @@
     margin: 10px 6px;
     padding: 5px 5px; 
   }
+
+
+  }
+  @media (max-height:600px){
+    .header-title >  div{
+        line-height: 1;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .header-title{
+      margin-top: 20px;
+    }
+    
+  .header-lines1 > div{
+      font-size: 20px;
+      line-height: 1;
+  }
+  
+  .header-lines2 > div{
+      font-size: 20px;
+      line-height: 1;
+  }
+  .desk-searching{
+    margin: 10px 6px;
+    padding: 5px 5px; 
+  }
+
 
   }
   
