@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
   }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
   input::placeholder{
     font-size: 17px;
     
@@ -54,7 +57,6 @@
   a {
     text-decoration: none;
     color: white;
-    font-family: sans-serif;
   }
   /*Text*/
   .txt-color {
@@ -75,9 +77,10 @@
   .city-card {
     height: 450px;
     position: relative;
+    opacity: .9;
   }
   .city-card:hover{
-    opacity: .8;
+    opacity: 1;
     transition: transform .2s;
     padding: 1px;
     font-size: larger;
@@ -139,8 +142,7 @@
 
 
   .card-size{
-    height:400px;
-    
+    min-height:400px;
   }
   tr{
     height: 50px;
@@ -197,3 +199,10 @@
 
   }
   
+
+/* 
+  display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: -6%; */
